@@ -98,7 +98,6 @@ public class SEOTool extends CmdLineTool {
             return;
         }
 
-
         String[] spamWiki = new String[]
                 {
                         "clueweb09-enwp01-95-02016",
@@ -120,7 +119,6 @@ public class SEOTool extends CmdLineTool {
 
         Set<String> docIdSet = new HashSet<>();
 //        docIdSet.addAll(Arrays.asList(spamWiki));
-
 
         for (String file : files) {
             System.out.println(file);

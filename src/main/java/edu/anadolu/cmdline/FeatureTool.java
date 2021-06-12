@@ -126,7 +126,7 @@ public final class FeatureTool extends CmdLineTool {
      * and is defined as the size of the intersection divided by the size of the union of the sample sets.
      *
      * @param reference set1
-     * @param alternate set1
+     * @param alternate set2
      * @return Note that by design,  0 <= J(A,B) <=1. If A and B are both empty, define J(A,B) = 1.
      */
     private static double systemSimilarity(List<SubmissionFile.Tuple> reference, List<SubmissionFile.Tuple> alternate) {
